@@ -37,6 +37,9 @@ public class PhoneDialerActivity extends Activity {
         
         Button btn = (Button)findViewById(R.id.Button02);
         btn.setOnClickListener(new ButtonListener());
+        
+        //pt end call
+        //PhoneDialerActivity.this.finish();
     }
 
 
